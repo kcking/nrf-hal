@@ -10,7 +10,8 @@ edition = "2018"
 cortex-m = "0.7.3"
 cortex-m-rt = "0.7.0"
 rtt-target = { version = "0.3.1", features = ["cortex-m"] }
-nrf52832-hal = { features = ["rt"], path = "../../nrf52832-hal" }
+# nrf52832-hal = { features = ["rt"], path = "../../nrf52832-hal" }
+nrf5340-app-hal = { features = ["rt"], path = "../../nrf5340-app-hal" }
 
 [dependencies.embedded-hal]
 version = "0.2.3"
